@@ -1,18 +1,14 @@
 package br.com.kaiocaldeira.artistsdiscovery.web.rest;
 
-import br.com.kaiocaldeira.artistsdiscovery.service.dto.ArtistsDto;
 import br.com.kaiocaldeira.artistsdiscovery.service.dto.ObjectDto;
 import org.springframework.http.*;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.client.RestTemplate;
 import org.springframework.web.util.UriComponentsBuilder;
 
-import java.util.Map;
-
 @RestController
-@RequestMapping("/artistas")
+@RequestMapping("search")
 public class SpotifyController {
-
 
     @GetMapping
     @ResponseBody
