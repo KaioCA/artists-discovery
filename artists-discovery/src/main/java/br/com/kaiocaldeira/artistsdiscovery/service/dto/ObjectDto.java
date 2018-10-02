@@ -11,4 +11,5 @@ public class ObjectDto {
     public void setArtists(ArtistsDto artists) {
         this.artists = artists;
     }
+
 }
